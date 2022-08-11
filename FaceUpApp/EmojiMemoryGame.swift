@@ -8,6 +8,27 @@
 
 import SwiftUI
 
-class EmojiMamoryGame{
+class EmojiMemoryGame{
+    
+    private var model:MemoryGame<String> = createMemoryGame()
+    
+    static func createMemoryGame() -> MemoryGame<String>{
+        
+        let array = ["👻","🎃"]
+        
+        return MemoryGame<String>(numberOfPairs: array.count){pairIndex in
+            return array[pairIndex]
+        }
+        
+    }
+   //     MemoryGame<String>(numberOfPairs: 12) { _ in "👻" }
+    
+    var cards:Array<MemoryGame<String>.Card>{
+        return model.cards
+    }
+    
+    func choose(card:MemoryGame<String>.Card){
+        model.choose(card: card)
+    }
     
 }
