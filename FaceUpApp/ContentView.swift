@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    var viewModel: EmojiMemoryGame
+   @ObservedObject var viewModel: EmojiMemoryGame
     
     var body: some View{
         
@@ -39,7 +39,7 @@ struct CardView:View {
             if card.isFaceUp{
                 RoundedRectangle(cornerRadius: 10.0).fill(Color.white)
                 RoundedRectangle(cornerRadius:10.0).stroke(lineWidth: 3)
-                Text("👻")
+                Text(card.content)
             }else{
                RoundedRectangle(cornerRadius: 10.0).fill()
             }
