@@ -14,13 +14,16 @@ struct ContentView: View {
     
     var body: some View{
         
-        return HStack{
-            ForEach(viewModel.cards) { card in
-                CardView(card: card).onTapGesture {
-                    self.viewModel.choose(card: card)
-                }
+        return Grid(viewModel.cards){card in
+            CardView(card: card).onTapGesture {
+                self.viewModel.choose(card: card)
             }
         }
+//        return HStack{
+//            ForEach(viewModel.cards) { card in
+
+//            }
+//        }
         
             .padding()
             .foregroundColor(Color.orange)
