@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8420BD9628AC01F70074DAE2 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8420BD9528AC01F70074DAE2 /* Grid.swift */; };
 		8420BD9828AC07840074DAE2 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8420BD9728AC07830074DAE2 /* GridLayout.swift */; };
+		848E01CA28D8BB3D005F31DF /* Array+shuffing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848E01C928D8BB3D005F31DF /* Array+shuffing.swift */; };
 		84CDEE3A28A2B6D200B28F21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDEE3928A2B6D200B28F21 /* AppDelegate.swift */; };
 		84CDEE3C28A2B6D200B28F21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDEE3B28A2B6D200B28F21 /* SceneDelegate.swift */; };
 		84CDEE3E28A2B6D200B28F21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDEE3D28A2B6D200B28F21 /* ContentView.swift */; };
@@ -44,6 +45,7 @@
 /* Begin PBXFileReference section */
 		8420BD9528AC01F70074DAE2 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		8420BD9728AC07830074DAE2 /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		848E01C928D8BB3D005F31DF /* Array+shuffing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+shuffing.swift"; sourceTree = "<group>"; };
 		84CDEE3628A2B6D200B28F21 /* FaceUpApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceUpApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CDEE3928A2B6D200B28F21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84CDEE3B28A2B6D200B28F21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				84EACB7128AE900500D66239 /* Array+Identifiable.swift */,
 				84F8142828CCA50900F1287D /* Pie.swift */,
 				84F8142A28CCAC3A00F1287D /* Cardify.swift */,
+				848E01C928D8BB3D005F31DF /* Array+shuffing.swift */,
 			);
 			path = FaceUpApp;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 			files = (
 				84CDEE3A28A2B6D200B28F21 /* AppDelegate.swift in Sources */,
 				84CDEE3C28A2B6D200B28F21 /* SceneDelegate.swift in Sources */,
+				848E01CA28D8BB3D005F31DF /* Array+shuffing.swift in Sources */,
 				84CDEE3E28A2B6D200B28F21 /* ContentView.swift in Sources */,
 				84F8142928CCA50900F1287D /* Pie.swift in Sources */,
 				84EE0CCF28A416B500D1E111 /* MemorizeGame.swift in Sources */,

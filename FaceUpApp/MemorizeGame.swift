@@ -53,6 +53,26 @@ struct MemoryGame<CardContent> where CardContent:Equatable{
             cards.append(Card(content: content, id: pairIndex*2+1))
         }
         
+        cards = self.shuffing(array: cards)
+        
+        
+    }
+    
+    private func shuffing(array:Array<Card>) -> Array<Card>{
+        
+        var newArray = [Card]().self
+        var repeatIndexes = [Int]()
+        
+        while newArray.count != array.count{
+            let randomIndex = Int.random(in: 0..<array.count)
+            
+            if !repeatIndexes.contains(randomIndex){
+                newArray.append(array[randomIndex])
+                repeatIndexes.append(randomIndex)
+            }
+        }
+        
+        return newArray
     }
     
     struct Card:Identifiable {
